@@ -2,6 +2,7 @@
 
 var get_letter_interval = require('../../practices/collectionOperator/get_letter_interval_2.js');
 
+
 describe('get_letter_interval', function () {
 
   var collection_a = ['t', 'u', 'v', 'w', 'x',
