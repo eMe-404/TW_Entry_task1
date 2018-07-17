@@ -3,7 +3,7 @@
 function get_letter_interval_2(number_a, number_b) {
   //在这里写入代码
   const len = Math.abs(number_b - number_a) + 1;
-  const strStartPoint = "a".codePointAt(0)-1;
+  const strStartPoint = "a".codePointAt(0) - 1;
   if (number_a <= number_b) {
     return Array.from({length: len},
       (v, k) => {
